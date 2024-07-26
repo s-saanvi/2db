@@ -1,0 +1,3 @@
+alter table employee change column mgr manager_id int;
+alter table employee rename column commission to bonus;
+delete from employee where empno = 105;
